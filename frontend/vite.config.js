@@ -8,10 +8,10 @@ export default defineConfig({
     host: true,
     proxy: {
       '/api': {
-        target: 'http://localhost:8000',
+        target: 'https://shravni-prompt-wars-1.onrender.com',
         changeOrigin: true,
-        secure: false,
-      }
-    }
-  }
+        secure: true,
+      },
+    },
+  },
 });

@@ -1,0 +1,26 @@
+# Environment and secret files
+.env
+.env.local
+.env.production
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+venv/
+.venv/
+env/
+
+# Node / Frontend
+node_modules/
+dist/
+build/
+.output/
+.vite/
+*.log
+
+# Operating System
+.DS_Store
+Thumbs.db
